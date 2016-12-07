@@ -28,7 +28,7 @@ describe( 'Sum of a Multiple Function', function() {
     var sum = multiples.sumOfAMultiple(10000);
 
     // Change the argument given to .equal() to the correct number
-    sum.should.equal(0);
+    sum.should.equal(23331668);
   });
 
 
