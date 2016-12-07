@@ -9,11 +9,8 @@ exports.sumOfAMultiple = function( n ) {
   for (var i = 0; i < n; i++){
     console.log(i);
 
-    if (i % 5 === 0){
-      sum += i
-    }
-    else if (i % 3 === 0){
-      sum += i
+    if (i % 5 === 0 ||i % 3 === 0){
+      sum += i;
     }
   }
   console.log(sum);
