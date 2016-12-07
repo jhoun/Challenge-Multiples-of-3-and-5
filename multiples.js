@@ -12,6 +12,9 @@ exports.sumOfAMultiple = function( n ) {
     if (i % 5 === 0){
       console.log("inside if", i);
     }
+    else if (i % 3 === 0){
+      console.log("inside if", i);
+    }
   }
 
   return sum;
