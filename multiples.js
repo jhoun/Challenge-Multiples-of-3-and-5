@@ -6,7 +6,13 @@
 exports.sumOfAMultiple = function( n ) {
   var sum = 0;
 
-  // do your work here
+  for (var i = 0; i <= n; i++){
+    console.log(i);
+
+    if (i % 5 === 0){
+      console.log("inside if", i);
+    }
+  }
 
   return sum;
 };
